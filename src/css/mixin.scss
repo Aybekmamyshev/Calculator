@@ -1,0 +1,11 @@
+@mixin aibektext($style,$weight,$size,$height,$color) {
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+
+@mixin flato( ) {
+  font-family: 'Lato', sans-serif;
+}
